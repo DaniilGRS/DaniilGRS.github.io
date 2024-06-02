@@ -1,0 +1,1032 @@
+body {
+    font-size: 15px;
+    font-family: SegoeUI, Arial, "sans-serif";
+    line-height: 1.2;
+}
+
+.h_Up {
+    padding-top: 15px;
+}
+
+.h_Top {
+    max-width: 1554px;
+    margin: auto;
+    padding: 0 25px;
+}
+
+.h_Nav {
+    display: flex;
+    padding-bottom: 17px;
+}
+
+.region {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+    transition:0.2s;
+}
+
+.region:hover {
+    transition:0.2s;
+    color:#55C5A3;
+}
+
+.region img {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.h_Links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.h_Links a {
+    margin-left: 24px;
+    text-decoration: none;
+    color:black;
+    transition:0.2s;
+}
+
+.h_Links a:hover {
+    color:#55C5A3;
+    transition:0.2s;
+}
+
+.h_Wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 16px;
+}
+
+.h_Logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 30px
+}
+
+.h_Logo img {
+    margin-right: 9px;
+    width:70px;
+    height:auto;
+}
+
+.h_Catalog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6EEE8A;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 125px;
+    height: 46px;
+    margin-right: auto;
+    font-weight: bold;
+    border: none;
+    transition:0.2s;
+}
+
+.h_Catalog img {
+    width: 20px;
+    height: auto;
+    margin-right: 1px;
+}
+
+.h_Catalog:hover {
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    transition:0.2s;
+}
+
+.h_TextCatalog span {
+    font-size: 15px;
+}
+
+.inner_Form {
+    display: flex;
+}
+
+.h_search {
+    display: flex;
+    align-items: center;
+    width: 360px;
+    height: 40px;
+    padding: 0px 40px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #999999;
+    border-radius: 20px;
+}
+
+.inner_Form img {
+    width: 20px;
+    height: auto;
+}
+
+.h_search:focus {
+    background-color: #ffffff;
+    outline: 0;
+}
+
+.h_Form {
+    margin-right: auto;
+}
+
+.inner_Form img {
+    position: absolute;
+    top: 100px;
+    left: auto;
+    cursor: pointer;
+    transform: translateX(10px);
+}
+
+.h_Button {
+    margin-left: auto;
+}
+
+.h_Button a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.heart_Logo img{
+    width: 40px;
+    height: auto;
+}
+
+.cart_Logo img {
+    width: 40px;
+    height: auto;
+}
+
+.account_Logo img {
+    width: 40px;
+    height: auto;
+}
+
+.h_Hot_Button {
+    margin: 0 10%;
+}
+
+.hot_Button {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.hot_Button a {
+    text-decoration: none;
+    color: black;
+    transition:0.2s;
+}
+
+.hot_Button a:hover {
+    color:#55C5A3;
+    transition:0.2s;
+}
+
+.h_Line {
+    position: relative;
+    width: auto;
+	border-top: 1px solid #999999;
+    top: -128px
+}
+
+.h_End_Line {
+    height: 20px;
+    border: none;
+    box-shadow: 0px 20px 30px -30px #8c8b8b  inset;
+}
+
+.main {
+    margin-bottom: 50px;
+}
+
+.slider_Container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1554px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    list-style: none;
+    transition: all 1s ease;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+.slide_Img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.pagination-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+  
+.dot {
+    width: 20px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: #d6d6d6;
+    transition: 1s;
+}
+  
+.dot.active {
+    background-color: #59EF68;
+    transition: 1s;
+}
+
+.main_Popular {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1554px;
+    margin-bottom: 50px;
+}
+
+.main_Popular h1 {
+    font-size: 24px;
+}
+
+.popular_Images {
+   display: flex;
+   justify-content: space-between;
+}
+
+.popular_Img {
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.popular_Img img {
+    width: 100%;
+    height: auto;
+}
+
+.popular_Img p {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+
+.main_Catalog {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1554px;
+    margin-bottom: 50px;
+}
+
+.main_Catalog h1 {
+    font-size: 24px;
+}
+
+.catalog_Images {
+   display: flex;
+   justify-content: space-between;
+}
+
+.catalog_card {
+    width: 100%;
+    height: auto;
+    margin: 0 5px;
+}
+
+.catalog_card a {
+    text-decoration: none;
+}
+
+.catalog_Img img{
+    width: 100%;
+    height: auto;
+}
+
+.catalog_txt {
+    color: #000000;
+}
+
+.catalog_txt p {
+    margin: 0;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+}
+
+.catalog_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6EEE8A;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 140px;
+    height: 45px;
+    margin-top: 20px;
+    margin-right: auto;
+    font-weight: bold;
+    border: none;
+    transition:0.2s;
+}
+
+.catalog_btn:hover {
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    transition:0.2s;
+}
+
+.catalog_btn img {
+    width: 17px;
+    height: auto;
+    margin-right: 8px;
+}
+
+.main_Recommendation {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1554px;
+    margin-bottom: 50px;
+}
+
+.main_Recommendation h1 {
+    font-size: 24px;
+}
+
+.rec_Images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rec_Img {
+    margin: 0 10px;
+}
+
+.rec_Img img {
+    width: 100%;
+    height: auto;
+}
+
+.main_Discounts {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1554px;
+    margin-bottom: 50px;
+}
+
+.main_Discounts h1 {
+    font-size: 24px;
+}
+
+.discounts_Images {
+   display: flex;
+   justify-content: space-between;
+}
+
+.dis_Img {
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.dis_Img img {
+    width: 100%;
+    height: auto;
+}
+
+.dis_Img p {
+    color: black;
+    font-size: 16px;
+}
+
+.main_Banner {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1554px;
+    margin-bottom: 50px;
+}
+
+.banner_Inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 150px;
+    background: linear-gradient(to right, #55C5A3, #59EF68);
+    border-radius: 20px;
+}
+
+.banner_Inner h1 {
+    margin-left: 50px;
+}
+
+.banner_Inner img {
+    margin-left: auto;
+    margin-right: 70px;
+}
+
+.banner_Inner button {
+    width: 250px;
+    height: 70px;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 50px;
+    cursor: pointer;
+    transition:0.2s;
+}
+
+.banner_Inner button:hover {
+    background-color:#dbdbdb;
+    transition:0.2s;
+}
+
+.main_Warranty {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1554px;
+    margin-bottom: 50px;
+}
+
+.main_Warranty h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.warranty_Images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.warranty_Img p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.main_Idea {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1554px;
+}
+
+.main_Idea h1 {
+    font-size: 24px;
+}
+
+.idea_Images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.idea_Img {
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.idea_Img img {
+    width: 100%;
+    height: auto;
+}
+
+.footer_Txt {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1554px;
+}
+
+.qia_discounts {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.qia_discounts h1 {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.qia_discounts a {
+    text-decoration: none;
+    color:black;
+    margin-top: 10px;
+    transition:0.2s;
+}
+
+.qia_discounts a:hover {
+    color:#55C5A3;
+    transition:0.2s;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.service h1 {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.service a {
+    text-decoration: none;
+    color:black;
+    margin-top: 10px;
+    transition:0.2s;
+}
+
+.service a:hover {
+    color:#55C5A3;
+    transition:0.2s;
+}
+
+.cooperation {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.cooperation h1 {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.cooperation a {
+    text-decoration: none;
+    color:black;
+    margin-top: 10px;
+    transition:0.2s;
+}
+
+.cooperation a:hover {
+    color:#55C5A3;
+    transition:0.2s;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.contacts h1 {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color:black;
+    margin-top: 10px;
+}
+
+.footer_End {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1554px;
+    margin-top: 70px;
+}
+
+.f_Copyright {
+    margin-right: 100px;
+}
+
+.f_Logo {
+    display: flex;
+    align-items: center;
+}
+
+.f_Logo img {
+    width: 45px;
+}
+
+.f_Logo span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.copyright_Txt {
+    display: flex;
+    margin-top: 30px;
+}
+
+.f_Bank {
+    position: relative;
+    top: 48px;
+}
+
+.f_Line {
+    position: relative;
+    width: auto;
+	border-top: 1px solid #999999;
+    top: -486px
+}
+
+@media (max-width: 1032px) {
+
+    body {
+        font-size: 10px;
+    }
+
+    .region img {
+        width: 15px;
+        margin-right: 0px;
+    }
+
+    .h_Logo {
+        font-size: 25px;
+    }
+
+    .h_Logo img {
+        width: 40px;
+        margin-right: 0px;
+    }
+
+    .inner_Form img {
+        top: 83px;
+    }
+
+    .h_Catalog {
+        width: 100px;
+        height: 35px;
+    }
+
+    .h_Catalog img {
+        width: 15px;
+    }
+
+    .h_TextCatalog span {
+        font-size: 10px;
+    }
+
+    .h_search {
+        width: 280px;
+        height: 33px;
+    }
+
+    .inner_Form input {
+        font-size: 10px;
+    }
+
+    .heart_Logo img{
+        width: 35px;
+    }
+    
+    .cart_Logo img{
+        width: 35px;
+    }
+
+    .account_Logo img{
+        width: 35px;
+    }
+
+    .h_Line {
+        top: -88px;
+    }
+
+    .inner_Form img {
+        width: 15px;
+    }
+
+    .main_Popular h1 {
+        font-size: 18px;
+    }
+
+    .popular_Img p {
+        font-size: 11px;
+    }
+
+    .main_Catalog h1 {
+        font-size: 18px;
+    }
+
+    .catalog_btn {
+        width: 100px;
+        height: 35px;
+    }
+
+    .catalog_btn img {
+        width: 15px;
+        margin-right: 5px;
+    }
+
+    .catalog_btn span {
+        font-size: 10px;
+    }
+
+
+    .main_Discounts h1 {
+        font-size: 18px;
+    }
+
+    .dis_Img p {
+        font-size: 12px;
+    }
+
+    .banner_Inner img {
+        position: relative;
+        top: 15px;
+        width: 300px;
+        margin-right: 30px;
+    }
+
+    .banner_Inner button {
+        width: 190px;
+        height: 60px;
+        font-size: 18px;
+    }
+
+    .main_Warranty h1 {
+        font-size: 18px;
+    }
+
+    .warranty_Img p {
+        font-size: 11px;
+    }
+
+    .warranty_Img img {
+        width: 70px;
+    }
+
+    .main_Idea h1 {
+        font-size: 18px;
+    }
+
+    .qia_discounts h1 {
+        font-size: 11px;
+    }
+    .service h1 {
+        font-size: 11px;
+    }
+    .cooperation h1 {
+        font-size: 11px;
+    }
+    .contacts h1 {
+        font-size: 11px;
+    }
+
+    .f_Logo img {
+        width: 30px;
+    }
+
+    .f_Logo span {
+        font-size: 15px;
+    }
+
+    .f_Bank {
+        top: 44px;
+    }
+
+    .f_Bank img {
+        width: 50px;
+    }
+
+    .f_Line {
+        top: -402px;
+    }
+}
+
+@media (max-width:820px) {
+    body {
+        font-size: 9px;
+    }
+
+    .h_Up {
+        padding-top: 0;
+    }
+
+    .h_Nav {
+        display: none;
+        padding-bottom: 0;
+    }
+
+    .h_Hot_Button {
+        display: none;
+    }
+
+    .h_Line {
+        display: none;
+
+    }
+
+    .h_Wrap {
+        display: grid;
+        grid-template-columns: repeat(1, 18% 82%);
+        grid-template-areas:
+        'logo l_icon'
+        'catalog search';
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .h_Wrap a {
+        grid-area: logo;
+    }
+
+    .h_Catalog {
+        grid-area: catalog;
+        width: 75%;
+        margin-top: 15px;
+    }
+
+    .h_form {
+        grid-area: search;
+    }
+
+    .h_Button {
+        grid-area: l_icon;
+    }
+
+    .h_search {
+        width: 100%;
+    }
+
+    .inner_Form {
+        margin-top: 15px;
+    }
+
+    .inner_Form img {
+        top: 73px;
+    }
+
+    .heart_Logo img{
+        width: 25px;
+    }
+    .cart_Logo img{
+        width: 25px;
+    }
+    .account_Logo img{
+        width: 25px;
+    }
+
+    .h_Form {
+        margin-right: 0;
+    }
+
+    .banner_Inner {
+        height: 100px;
+    }
+
+    .banner_Inner img {
+        top: 5px;
+        width: 225px;
+    }
+
+    .banner_Inner button {
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .popular_Img p {
+        font-size: 12px;
+    }
+
+    .qia_discounts h1 {
+        font-size: 10px;
+    }
+    .service h1 {
+        font-size: 10px;
+    }
+    .cooperation h1 {
+        font-size: 10px;
+    }
+    .contacts h1 {
+        font-size: 10px;
+    }
+
+    .f_Line {
+        display: none;
+    }
+
+}
+
+@media (max-width:565px) {
+    .h_Catalog {
+        width: 95%;
+    }
+
+    .catalog_Images {
+        overflow: auto;
+    }
+
+    .catalog_btn {
+        width: 140px;
+        margin-bottom: 20px;
+    }
+
+    .inner_Form img {
+        top: 73px;
+    }
+
+    .banner_Inner img {
+        display: none;
+    }
+
+    .footer_Txt {
+        display: none;
+    }
+
+    .h_Catalog img {
+        width: 13px;
+    }
+
+    .h_TextCatalog span {
+        font-size: 10px;
+    }
+
+    .dis_Img { 
+        margin: 15px 100px;
+    }
+
+    .idea_Images div {
+        margin: 10px 20px;
+    }
+
+    .popular_Img p {
+        font-size: 13px;
+    }
+
+    .dis_Img {
+        margin: 10px 20px;
+    }
+
+    .dis_Img p {
+        font-size: 13px;
+    }
+
+    .dis_Img img {
+        width: 240px;
+    }
+
+    .popular_Images {
+        overflow: auto;
+    }
+
+    .popular_Img {
+        margin: 10px 20px;
+    }
+
+    .popular_Img img {
+        width: 170px;
+    }
+
+    .discounts_Images {
+        overflow: auto;
+    }
+
+    .idea_Images {
+        overflow: auto;
+    }
+
+    .idea_Img img {
+        width: 300px;
+    }
+
+    .footer_End {
+        margin-top: 10px;
+    }
+
+    .copyright_Txt {
+        margin-top: 10px;
+    }
+
+    .f_Copyright {
+        margin-right: 10px;
+    }
+
+    .f_Bank {
+        top: 21px;
+    }
+}
+
+@media (max-width:370) {
+    .f_Bank {
+        top: 32px;
+    }
+
+    .f_Bank img {
+        width: 35px;
+    }
+}
